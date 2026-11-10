@@ -6,6 +6,8 @@ DocTalk is a small retrieval-augmented generation (RAG) app. Point it at PDFs, M
 
 ## Quick start
 
+Requires Python 3.10+. The first run downloads a small (~80 MB) embedding model, which is then cached locally.
+
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
@@ -17,7 +19,7 @@ doctalk chat                        # interactive terminal Q&A
 doctalk ui                          # Streamlit web app
 ```
 
-Example:
+Illustrative output (formatting only; your answers will vary):
 
 ```
 $ doctalk ask "How hot is Venus?"
@@ -86,7 +88,7 @@ Add your own `{"q": ..., "source": ...}` cases to `eval/questions.json` and poin
 pytest
 ```
 
-Covers chunking, the vector store, citation parsing, and the answer path (with a fake client, so no network).
+Covers chunking, the vector store, citation parsing, the CLI (including `--no-llm` and the missing-key message), and the answer path (with a fake client, so no network).
 
 ## Limitations and next steps
 
