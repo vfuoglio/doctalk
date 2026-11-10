@@ -1,0 +1,12 @@
+[
+  {"q": "What is a good chunk size and overlap to start with?", "source": "rag_primer.md"},
+  {"q": "How do you measure retrieval quality?", "source": "rag_primer.md"},
+  {"q": "Why should the model cite passages?", "source": "rag_primer.md"},
+  {"q": "How long should bulk fermentation take?", "source": "sourdough.txt"},
+  {"q": "What temperature should I bake bread at?", "source": "sourdough.txt"},
+  {"q": "How do I know my starter is ready?", "source": "sourdough.txt"},
+  {"q": "Which planet is hottest?", "source": "solar_system.md"},
+  {"q": "How old is the Solar System?", "source": "solar_system.md"},
+  {"q": "How long does Neptune take to orbit the Sun?", "source": "solar_system.md"},
+  {"q": "What are Saturn's rings made of?", "source": "solar_system.md"}
+]
